@@ -1,0 +1,4 @@
+*.pyc
+.idea/
+migrations/
+node_modules
