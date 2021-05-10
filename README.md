@@ -1,4 +1,4 @@
-​	
+线上浏览地址：http://117.50.94.220:3000/	
 
 学习收获：
 
@@ -1023,3 +1023,11 @@ github中查看actions
 TOKEN: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
 
 腾讯云服务器配置：https://www.yuque.com/docs/share/3bed2f90-8dd0-4eb3-b95d-b10db3a5e374?#%20%E3%80%8A3-3%E4%BD%9C%E4%B8%9A%E6%80%8E%E4%B9%88%E5%86%99-%EF%BC%88From%E6%8B%89%E5%8B%BE%EF%BC%89%E3%80%8B
+
+1、目录拷贝：
+
+scp -r  ./util  root@192.168.1.0:/home/wwwroot/limesurvey_back/scp
+
+2、文件拷贝
+
+scp  ./util  root@192.168.1.0:/home/wwwroot/limesurvey_back/scp 
